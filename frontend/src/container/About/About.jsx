@@ -5,10 +5,10 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import './About.scss';
 
 const abouts = [
-  {title: 'Web Develeopment', description: 'I make a link look cool when opened.', imgUrl: images.about01},
-  {title: 'Ethical Hacker', description: 'I maybe into your PC.', imgUrl: images.about02},
-  {title: 'Speaker', description: 'You know I speak well.', imgUrl: images.about03},
-  {title: 'Product Manager', description: 'I manage things good.', imgUrl: images.about04}
+  {title: 'Web Develeopment', description: 'I make a link look cool when opened.', imgUrl: images.about04},
+  {title: 'Ethical Hacker', description: 'I maybe into your PC.', imgUrl: images.skype},
+  {title: 'Speaker', description: 'You know I speak well.', imgUrl: images.speaker},
+  {title: 'Product Manager', description: 'I manage things good.', imgUrl: images.productme}
 ];
 const About = () => {
   return (

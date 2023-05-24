@@ -18,6 +18,23 @@ import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
 
+import speaker from '../assets/speaker.jpg';
+import productme from '../assets/product.jpg'
+
+import java from '../assets/java.png';
+import C from '../assets/C.png';
+import Linux from '../assets/linux.png';
+import Imp from '../assets/ReactJs.png';
+import Bootstrap from '../assets/bootstrap.png';
+import cockroach from '../assets/cockroach.png'
+import hacker from '../assets/hacker.png'
+import Arduino from '../assets/arduino.png'
+
+import AicG from '../assets/aicgroup.jpg';
+import Revive from '../assets/CyberRevive.jpg';
+import Savy from '../assets/CyberSavy.jpg';
+import BugBash from '../assets/BugBash.jpg';
+
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
 import about03 from '../assets/about03.png';
@@ -69,4 +86,18 @@ export default {
   nb,
   skype,
   spotify,
+  speaker,
+  productme,
+  java,
+  Linux,
+  Imp,
+  Bootstrap,
+  hacker,
+  cockroach,
+  Arduino,
+  C,
+  AicG,
+  Revive,
+  Savy,
+  BugBash,
 };
