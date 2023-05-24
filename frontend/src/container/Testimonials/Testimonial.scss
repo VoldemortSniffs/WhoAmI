@@ -1,0 +1,115 @@
+.app__testimonials {
+    flex: 1;
+    width: 100%;
+    flex-direction: row;
+    @media screen and (max-width: 850px) {
+        width: 100%;
+        flex-direction: column;
+    }
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+
+}
+.app__testimonials-item {
+    margin-top: 2.5rem;
+    margin-left: 0.9rem;
+    width: 320px;
+    min-height: 320px;
+    background-color: var(--white-color);
+    display: flex;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow:  0 0 30px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+
+    h4{
+        
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+        color: var(--secondary-color);
+        
+    }
+    img{
+        
+        margin-top: 1rem;
+        width: 67%;
+        height: 73%;
+        border-radius: 5%;
+        object-fit: cover;
+        filter: grayscale(1);
+    }
+
+    @media screen and (min-width : 2000px){
+        min-height: 450px;
+
+        img{
+            width: 150px;
+            height: 150px;
+        }
+    }
+    @media screen and (max-width: 850px) {
+        width: 100%;
+    }
+    @media screen and (max-width: 600px) {
+        // margin-top: 1rem;
+        width: auto;
+        flex-direction: column;
+        h4{
+            text-align: center;
+            margin-top: 1rem;
+        }
+        h5{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+    }
+
+    &:hover{
+        cursor: pointer;
+        scale: 1.09;
+        box-shadow: 0 0 60px rgba(0, 0, 0, 0.13);
+        transform: rotate(360deg);
+        transition: all 0.8s ease-in-out;
+        h4{
+            scale: 1.09;
+            transition: all 0.8s ease-in-out;
+        }
+        img{
+            
+            scale: 1.6;
+            filter: grayscale(0);
+            box-shadow:0 0 30px rgba(0, 0, 0, 0.13) ;
+            
+        }
+    }
+}
+.app__testimonials-content {
+    flex: 1;
+    height: 100%;
+    padding:  0 2rem;
+    text-align: left;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    p{
+        
+        color: var(--black-color);
+        font-family: var(--font-base);
+        margin-top: 1.3rem;
+    }
+    
+    h5{
+        text-align: center;
+        font-weight: 400;
+        color: var(--gray-color);
+        
+    }
+    
+
+}
