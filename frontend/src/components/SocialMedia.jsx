@@ -6,25 +6,18 @@ const SocialMedia = () => {
   return (
     <div className='app__social'>
         <div>
-          <a href="https://twitter.com/prakhar_martand" target='_blank'>
-            <BsTwitter />
-          </a>
-        </div>
-        
-        <div>
           <a href="https://github.com/VoldemortSniffs/WhoAmI">
             <FaGithub />
           </a>
         </div>
         <div>
-
           <a href="https://www.linkedin.com/in/prakhar-martand-b91a311b9/" target='_blank'>
             <BsLinkedin />
           </a>
         </div>
         <div>
 
-          <a href="https://twitter.com/prakhar_martand">
+          <a href='https://drive.google.com/file/d/1e7jHzcrtFRfWQqbHk4atIwx1XWUcfA22/view?usp=sharing'>
             <HiAcademicCap />
           </a>
         </div>

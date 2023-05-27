@@ -17,7 +17,7 @@ import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
-
+// import resume from '../assets/Prakhar_Martand_Resume.pdf'
 import speaker from '../assets/speaker.jpg';
 import productme from '../assets/product.jpg'
 
