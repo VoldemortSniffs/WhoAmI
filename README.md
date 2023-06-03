@@ -22,6 +22,11 @@ I am a motivated and well-rounded professional, dedicated to leveraging my exper
 - Worked as **Ethical Hacker**
 - Solving Data structure and algorithm questions in **Java**
 
+## 👯 Communities
+- Empowering students with cybersecurity awareness and hands-on ethical hacking
+- Speaker at Manipal University Jaipur (Student Programmes) on cybersecurity
+- Chief Operations Officer at Cyber Space Club MUJ (*ranked in top 3 clubs of college*)
+
 ## 👋 Reach out to me 
 - 💬 Ask me about anything.
 - 🖼️ Portfolio site: [Portfolio](https://prakhar-martand.netlify.app)
